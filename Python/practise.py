@@ -169,4 +169,38 @@
     
 # sam = Person("Sam testing")
 # sam.talk()
+
+#####################Max number v2 using modules##########################################
+# from conversion import find_max
+
+# numbers = [10,3,56,43]
+
+# max = find_max(numbers)
+# print(max)
+
+########################Genrating random dice values#######################################
+# import random
+
+
+# class Dice:
+#     def roll(self):
+#        first= random.randint(1,6)
+#        second= random.randint(1,6)
+#        return first, second
+   
+
+# dice = Dice()
+# print( dice.roll())
+
+###########################Automating excel file####################################
+
+import openpyxl as xl
+wb = xl.load_workbook('transactions.xlsx')
+sheet = wb['Sheet1']
+cell = sheet['a1']
+print(cell.value)
+
+
+
+
         

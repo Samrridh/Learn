@@ -237,12 +237,26 @@
 
 ########################modules(conversion)#######################################
 
-import conversion
-from conversion import kg_to_lbs
+# import conversion
+# from conversion import lbs_to_kg
 
-print(conversion.lbs_to_kg(70))
+# lbs_to_kg(100)
+# # print(conversion.lbs_to_kg(70))
+
+###########################Packages####################################
+# # from test.shipping import calc_shipping 
+# from test import shipping
+
+# print(shopping.calc_shipping())
+
+###############################################################
+# from pathlib import Path
 
 
+# path = Path("test")
+# print(path.exists())
+
+###############################################################
 
 
 
