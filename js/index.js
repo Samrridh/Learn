@@ -2,6 +2,10 @@
 // let name = 'Samrridh';
 // console.log(name);
 
+const item ={
+    "sam" : true,
+}
+console.log(item["sam"])
 /* ************************Constant********************************** */
 
 // const interestRate = 5;
