@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Basketball</title>
+</head>
+<body>
+    <p>check the console maybe</p>
+    <script>
+        /////////////////////////learning objects////////////////////////////
+        const product1 = {
+            name: 'basketball',
+            price: 500
+        };
+        console.log(product1);
+
+        product1.price += 500;
+        console.log(product1);
+
+        product1['delivery time'] = '3days';
+        console.log(product1);
+
+        /////////////////////////price comparison////////////////////////////
+
+        const product2 = {
+            name: 'basketball',
+            price: 1000
+        };
+
+        function comparePrice(product1,product2){
+            if(product1.price<product2.price){
+                console.log(`${product1.name} is cheaper than ${product2.name}`)
+            }
+
+            else if (product1.name === product2.name &&
+            product1.price === product2.price){
+            console.log(true);
+            }
+
+            else{
+                console.log(`${product2.name} is cheaper than ${product1.name} `)
+            }
+        }
+
+
+        comparePrice(product1,product2)
+    </script>
+</body>
+</html>

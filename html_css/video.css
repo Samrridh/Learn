@@ -23,7 +23,7 @@
 
 .profile-pic{
     border-radius: 50px;
-    width: 50px;
+    width: 45px;
 }
 
 .thumbnail-row{
@@ -41,6 +41,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+@media (max-width: 768px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 .video-time{
