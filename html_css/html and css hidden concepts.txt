@@ -1,0 +1,13 @@
+thapa technical video link: https://www.youtube.com/watch?v=5ccq_nLHneE
+
+1. <img> alternative, <picture> tag and<figure> tag
+2. <img> selective area act as hyperlink using <area> and <map.
+3. download a file using syntax : < a href = "" download>
+4. <ul> diff b/w disc and circle, start attribute
+5. iframe tag for yt video/google maps - imp lazy loading
+6. tables, audio and video tag(change thumbnail too)
+7. form tags, radio buton name attribute
+8. diff b/w class(can be common) and id(unique)
+9. diff b/w div(new line) and span(inline)
+10.semantics: header,nav, main, article, section, aside, footer
+

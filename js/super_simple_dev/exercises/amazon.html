@@ -7,6 +7,7 @@
 </head>
 <body>
     <p>check the console maybe</p>
+    <button class="cartButton" onclick="changeText();">Add to cart</button>
     <script>
         /////////////////////////learning objects////////////////////////////
         const product1 = {
@@ -45,6 +46,16 @@
 
 
         comparePrice(product1,product2)
+
+        function changeText(){
+            const buttonElement = document.querySelector('.cartButton');
+
+            if (buttonElement.innerHTML === 'Add to cart'){
+                buttonElement.innerHTML = 'Done';
+            } else{
+                buttonElement.innerHTML = 'Add to cart';
+            }
+        }
     </script>
 </body>
 </html>
